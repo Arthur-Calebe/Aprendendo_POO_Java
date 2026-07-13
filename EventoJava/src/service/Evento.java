@@ -30,7 +30,7 @@ public class Evento {
 
     public void cadastrarEmpresa(Empresas empresa) {
         empresas.add(empresa);
-        System.out.println("Empresa cadastrada no evento.");
+        System.out.println("Empresa " + empresa.getNomeEmpresa()+ " cadastrada no evento.");
     }
 
     public void cadastrarConvidado(Convidado convidado) {
@@ -49,6 +49,13 @@ public class Evento {
             System.out.println("- " + palestrantes.get(i).getNome() + " (" + palestrantes.get(i).getTema() + ")");
         }
     }
+
+    public void listarEmpresas() {
+    System.out.println("Empresas no evento " + nomeEvento + ":");
+    for (int i = 0; i < empresas.size(); i++) {
+        System.out.println("- " + empresas.get(i).getNomeEmpresa());
+    }
+}
 
     public int totalParticipantes() {
         return palestrantes.size() + convidados.size() + visitantes.size();
