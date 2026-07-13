@@ -4,7 +4,6 @@ public class Empresas {
     private String cnpj;
     private int numStand;
     
-
     public Empresas(String cnpj, int numStand) {
         this.cnpj = cnpj;
         this.numStand = numStand;
