@@ -21,7 +21,7 @@ public class Main {
             "Fernanda Lima", "fernanda@email.com", "11977777777", 23
         );
 
-        Empresas empresa1 = new Empresas("xxxxxxx", 23, "Itáu");
+        Empresas empresa1 = new Empresas("xxxxxxx", 23, "Itaú");
 
         evento.cadastrarPalestrante(p1);
         evento.cadastrarConvidado(c1);

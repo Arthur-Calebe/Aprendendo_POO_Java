@@ -58,7 +58,7 @@ public class Evento {
 }
 
     public int totalParticipantes() {
-        return palestrantes.size() + convidados.size() + visitantes.size();
+        return palestrantes.size() + convidados.size() + visitantes.size() + empresas.size();
     }
 
     public String getNomeEvento() {
