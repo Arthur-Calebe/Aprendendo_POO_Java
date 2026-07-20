@@ -17,7 +17,6 @@ public class Funcionario extends Pessoa {
     {
         System.out.println("Dentro do bloco de inicialização de funcionario 2");
     }
-
     public Funcionario(String nome) {
         super(nome);
         System.out.println("Dentro do construtor de funcionário");
