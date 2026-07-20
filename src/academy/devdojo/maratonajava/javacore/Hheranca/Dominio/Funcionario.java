@@ -4,6 +4,7 @@ package academy.devdojo.maratonajava.javacore.Hheranca.Dominio;
 //com o extends eu estou herdando as caracteristicas da classe pessoas por elas serem as mesmas e funcionario É uma pessoa
 public class Funcionario extends Pessoa {
     private double salario;
+
     static {
         System.out.println("Dentro do bloco de inicialização estático de funcionario");
 
@@ -12,10 +13,12 @@ public class Funcionario extends Pessoa {
     {
         System.out.println("Dentro do bloco de inicialização de funcionario 1");
     }
+
     {
         System.out.println("Dentro do bloco de inicialização de funcionario 2");
     }
-    public Funcionario(String nome){
+
+    public Funcionario(String nome) {
         super(nome);
         System.out.println("Dentro do construtor de funcionário");
     }
@@ -26,8 +29,8 @@ public class Funcionario extends Pessoa {
         System.out.println(this.salario);
     }
 
-    public void relatorioPagamento(){
-        System.out.println("Eu " + this.nome + " recebi o salario de "+ this.salario);
+    public void relatorioPagamento() {
+        System.out.println("Eu " + this.nome + " recebi o salario de " + this.salario);
     }
 
     public double getSalario() {
