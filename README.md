@@ -25,6 +25,7 @@ Aqui você encontrará exemplos práticos, exercícios e projetos desenvolvidos 
 - Associação entre objetos
 - Modificadores de acesso
 
+
 ---
 
 > Este repositório é atualizado conforme avanço nos estudos da **Maratona Java (DevDojo)** e em outros materiais relacionados à linguagem Java.
