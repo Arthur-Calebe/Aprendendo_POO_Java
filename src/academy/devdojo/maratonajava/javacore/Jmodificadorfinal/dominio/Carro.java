@@ -6,6 +6,9 @@ public class Carro {
     // usando o "final", uma vez executado mesmos sendo "private" ou "public" não pode ser mais modificado
     // uma constante tem que ser escrita toda em MAIÚSCULA e caso seja composta tem que ser separada por "_"
 
+    public final Comprador COMPRADOR = new Comprador();
+    // a referência que a variável "COMPRADOR" tem nunca pode ser alterada.
+
     public String getNome() {
         return nome;
     }
