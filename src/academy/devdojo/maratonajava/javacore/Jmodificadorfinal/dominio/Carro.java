@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Jmodificadorfinal.dominio;
 
 
-    // como essa classe tem "final", nenhuma outra classe pode "extender" dela
+    // como essa classe tem "final", nenhuma outra classe pode "extender" dela.
 public final class Carro {
     private String nome;
     public static final double VELOCIDADE_LIMITE = 150;
