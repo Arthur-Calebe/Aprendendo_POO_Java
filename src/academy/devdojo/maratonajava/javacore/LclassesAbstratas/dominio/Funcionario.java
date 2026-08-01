@@ -5,11 +5,9 @@ public abstract class Funcionario {
     protected String nome;
     protected double salario;
 
-    // continua tendo um construtor, pois a classe vai dar origem a outras
+    // continua tendo um construtor, pois a classe vai dar origem a outras por meio do "extends"
     public Funcionario(String nome, double salario) {
         this.nome = nome;
         this.salario = salario;
     }
-
-
 }
