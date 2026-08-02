@@ -11,9 +11,9 @@ public class Gerente extends Funcionario{
     @Override
     public String toString() {
         return "Gerente {" +
-                "expecialização = '" + expecializacao + '\'' +
-                ", nome = '" + nome + '\'' +
-                ", salario = " + salario +
+                "expecialização= '" + expecializacao + '\'' +
+                ", nome= '" + nome + '\'' +
+                ", salario= " + salario +
                 '}';
     }
 }
