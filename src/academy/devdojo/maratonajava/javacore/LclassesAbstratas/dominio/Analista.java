@@ -7,6 +7,11 @@ public class Analista extends Funcionario{
     }
 
     @Override
+    public void bonusSalarial() {
+        this.salario = this.salario + this.salario * 0.2;
+    }
+
+    @Override
     public String toString() {
         return "Analista{" +
                 " nome ='" + nome + '\'' +

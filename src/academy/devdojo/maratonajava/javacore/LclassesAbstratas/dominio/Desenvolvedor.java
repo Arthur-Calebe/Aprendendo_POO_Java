@@ -3,6 +3,12 @@ package academy.devdojo.maratonajava.javacore.LclassesAbstratas.dominio;
 public class Desenvolvedor extends Funcionario {
     public Desenvolvedor(String nome, double salario) {
         super(nome, salario);
+        bonusSalarial();
+    }
+
+    @Override
+    public void bonusSalarial() {
+        this.salario = this.salario + this.salario * 0.05;
     }
 
     @Override
