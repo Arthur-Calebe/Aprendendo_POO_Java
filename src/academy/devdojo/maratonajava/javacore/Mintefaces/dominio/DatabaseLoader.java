@@ -2,6 +2,9 @@ package academy.devdojo.maratonajava.javacore.Mintefaces.dominio;
 
 public class DatabaseLoader implements DataLoader, DataRemover{
 
+    // Mais restritivo para o menos restritivo: modificador de acesso
+    // private -> default -> protect -> public
+    // Quando você sobrescrever um deles sempre tem que ser com um menos restritivo, nunca mais restritivo
     @Override
     public void load() {
         System.out.println("Carregando dados do banco de dados!");
